@@ -11,14 +11,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/node-function-name.git"
+    "url": "git://github.com/craigcomstocks/node-function-name.git"
   },
   "main": "index.js",
   "scripts": {
-    "test": "node test/test"
+    "test": "node test/test",
+    "install": "echo",
+    "build": "node-gyp rebuild"
   },
   "dependencies": {
-    "bindings": "^1.2.1",
+    "bindings": "craigcomstocks/node-bindings#find-by-abi",
     "nan": "2"
   }
 }

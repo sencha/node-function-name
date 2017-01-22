@@ -17,6 +17,7 @@
   "scripts": {
     "test": "node test/test",
     "install": "echo",
+    "electron": "node-gyp rebuild --runtime=electron --target=1.4.4 --disturl=https://atom.io/download/atom-shell --build-from-source",
     "build": "node-gyp rebuild"
   },
   "dependencies": {
